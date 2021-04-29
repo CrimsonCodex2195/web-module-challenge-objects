@@ -61,7 +61,8 @@ export const burger = {
     if (position === 'student' || position === 'teacher') {
       discountedPrice = this.price * .75;
       return discountedPrice;
-    } else {
+    } 
+    else {
       discountedPrice = this.price * .9;
       return discountedPrice;
     }
@@ -86,7 +87,11 @@ const reviews = [
 Using the reviews array above:
   1. log only Julius' feedback to the console - no function needed 
 */
-
+for (let i = 0; i < reviews.length; i++) {
+  if (reviews[i].name.includes('Julius')) {
+    console.log(reviews[i].feedback);
+  }
+}
 
 
 
