@@ -87,13 +87,12 @@ const reviews = [
 Using the reviews array above:
   1. log only Julius' feedback to the console - no function needed 
 */
+
 for (let i = 0; i < reviews.length; i++) {
   if (reviews[i].name.includes('Julius')) {
     console.log(reviews[i].feedback);
   }
 }
-
-
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 4: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
 Using the reviews array above do the following: (no function needed) 
@@ -101,7 +100,12 @@ Using the reviews array above do the following: (no function needed)
   2. log the whole array to the console, make sure the new review is inside of it   
 */
 
-
+reviews.push({
+  name: 'Shariq',
+  review: 4,
+  feedback: "FOOD FOOD FOOD THIS PLACE SO TASTY"
+});
+console.log(reviews);
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 5: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
 Reyna's feedback is missing! Use what you know to do the following: (no function needed) 
