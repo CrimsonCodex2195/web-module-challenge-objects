@@ -131,9 +131,7 @@ Use the getReviewByIndex function below to do the following:
 */
 
 function getReviewByIndex(array, index) {
-  let returnMessage = '';
-  returnMessage = `${array[index].name} gave the restaurant a ${array[index].rating} star review, and their feedback was: ${array[index].feedback}`
-  return returnMessage;
+  return `${array[index].name} gave the restaurant a ${array[index].rating} star review, and their feedback was: ${array[index].feedback}`
 }
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 7: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
@@ -148,9 +146,7 @@ Use the getLastReview function below to do the following:
 */
 
 function getLastReview(array) {
-  let returnMessage = '';
-  returnMessage = `${array[array.length - 1].name} gave the restaurant a ${array[array.length - 1].rating} star review, and their feedback was: ${array[array.length - 1].feedback}`
-  return returnMessage;
+  return `${array[array.length - 1].name} gave the restaurant a ${array[array.length - 1].rating} star review, and their feedback was: ${array[array.length - 1].feedback}`
 }
 
 ///////////////🍔☕️🍽 STRETCH🍔☕️🍽////////////////////
